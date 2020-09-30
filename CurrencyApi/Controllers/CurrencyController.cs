@@ -15,10 +15,10 @@ namespace CurrencyApi.Controllers
     {
         private static readonly Dictionary<string, double> Currencies = new Dictionary<string, double>
         {
-            { "GBP", 1 },
-            { "USD", 0.78 },
             { "AUD", 0.56 },
             { "EUR", 0.91 },
+            { "GBP", 1 },
+            { "USD", 0.78 },
         };
 
 
@@ -30,9 +30,9 @@ namespace CurrencyApi.Controllers
 
         [HttpGet]
         [Route("convert")]
-        public Decimal ConvertValue(string inputCurrency, string outputCurrency, double value)
+        public JsonResult ConvertValue(string inputCurrency, string outputCurrency, double value)
         {
-            return decimal.Round(Convert.ToDecimal(value * Currencies[inputCurrency] / Currencies[outputCurrency]), 2);
+            return new JsonResult(Convert.ToDecimal(value * Currencies[inputCurrency] / Currencies[outputCurrency]).ToString("F2"));
         }
     }
 }
