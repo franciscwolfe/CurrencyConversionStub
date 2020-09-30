@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fdDn/EhuoHG/wRl0b3RyKHcTHBwsgVgkFWLHNNeL/wZ27XtFgvOg/wFoj3oNz3e0e1peM2jd7RQXrho6Cnv+cA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\franc\\source\\repos\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
