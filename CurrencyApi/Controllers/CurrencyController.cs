@@ -23,8 +23,9 @@ namespace CurrencyApi.Controllers
 
 
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IEnumerable<string>> Get()
         {
+            await Task.Delay(5000);
             return Currencies.Keys;
         }
 

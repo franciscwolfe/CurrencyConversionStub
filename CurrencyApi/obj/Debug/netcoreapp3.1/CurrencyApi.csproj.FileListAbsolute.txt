@@ -1,7 +1,6 @@
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.csprojAssemblyReference.cache
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.AssemblyInfoInputs.cache
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.AssemblyInfo.cs
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.RazorTargetAssemblyInfo.cache
@@ -18,3 +17,4 @@ C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\Curr
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.dll
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.pdb
 C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.genruntimeconfig.cache
+C:\Users\franc\source\repos\CurrencyApi\CurrencyApi\obj\Debug\netcoreapp3.1\CurrencyApi.csprojAssemblyReference.cache
