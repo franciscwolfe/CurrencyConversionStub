@@ -25,14 +25,15 @@ namespace CurrencyApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<string>> Get()
         {
-            await Task.Delay(5000);
+            await Task.Delay(3000);
             return Currencies.Keys;
         }
 
         [HttpGet]
         [Route("convert")]
-        public JsonResult ConvertValue(string inputCurrency, string outputCurrency, double value)
+        public async Task<JsonResult> ConvertValue(string inputCurrency, string outputCurrency, double value)
         {
+            await Task.Delay(750);
             return new JsonResult(Convert.ToDecimal(value * Currencies[inputCurrency] / Currencies[outputCurrency]).ToString("F2"));
         }
     }
